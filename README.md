@@ -42,7 +42,7 @@ return array(
 );
 ```
 
-After generated config file set values in return array. `user` = your gmail id, `password` = your gmail password, `album` = `picasa web album ID`.
+After generated config file set values in return array. `user` = your gmail id, `password` = your gmail password, `album` = picasa web album ID.
 
 
 # Usage
