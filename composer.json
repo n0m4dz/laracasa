@@ -1,0 +1,23 @@
+{
+    "name": "n0m4dz/laracasa",
+    "description": "ZendGdata web album (Picasa) integration to Laravel",
+    "authors": [
+        {
+            "name": "Tseegii Tselmeg",
+            "email": "tseegii.it@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "N0m4dz\\Laracasa\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
