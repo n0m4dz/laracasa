@@ -76,6 +76,13 @@ Laracasa::deletePhoto($photo_id);
 ```
 Check [Laracasa example] in Gist. 
 
+## ToDo
+
+- Add album functions
+- Improve Laracasa package
+- And many other things
+
+
 [Zend Gdata]:http://framework.zend.com/manual/1.12/en/zend.gdata.html
 [Laracasa example]:https://gist.github.com/n0m4dz/cdfac4ef1986d3153e2d
 
