@@ -121,7 +121,7 @@ class Laracasa
      */
     function addPhoto($photo) {
         if (!file_exists($photo['tmp_name']) || !is_uploaded_file($photo['tmp_name'])) {
-            echo "please choose a upload file";
+            $o = array('state' => false); 
         } else {
             
             $photos = new Zend_Gdata_Photos($this->client);
@@ -144,9 +144,9 @@ class Laracasa
                 $o = array('state' => true, 'id' => $result->getGphotoId());                 
             } else {
                 $o = array('state' => false); 
-            }
-            return $o;
+            }            
         }
+        return $o;
     }
     
     /**
