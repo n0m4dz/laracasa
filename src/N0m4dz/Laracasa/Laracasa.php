@@ -109,7 +109,7 @@ class Laracasa
         $query->setUser($this->user);
         $query->setAlbumId($this->album);
         $query->setPhotoId($photoId);
-        $query = $query->getQueryUrl() . "?kind=comment,tag";
+        $query = $query->getQueryUrl() . "?kind=comment,tag&imgmax=1600";
         
         $photoFeed = $photos->getPhotoFeed($query);
         return $photoFeed;
