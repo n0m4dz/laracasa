@@ -1,6 +1,9 @@
 Laracasa - Laravel Picasa web album (Laravel 4) 
 =========
 
+Deprecated 
+=========
+
 This package is based on [Zend Gdata] which provides Google API service.
 
 Installation
